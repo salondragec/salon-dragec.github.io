@@ -1433,6 +1433,9 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 667px){
+	.video_o_nama{
+	width:100%;
+	}
 	.banner_text_w3layouts {
 		padding: 8em 0;
 	}
