@@ -928,7 +928,7 @@ a.agilebtn {
     margin-bottom: 1em;
     color: #fff;
 }
-.contact-right-w3l input[type="text"]:nth-child(1),.contact-right-w3l input[type="email"] {
+.contact-right-w3l input.ime,.contact-right-w3l input[type="email"] {
     margin-right:2%;
 }
 .contact-right-w3l textarea{
