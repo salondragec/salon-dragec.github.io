@@ -3,6 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link href="https://formsapi.jabwn.com/css/semantic.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Notifications - Jabwn Forms API</title>
     <style type="text/css">
         .ui.text.container {
@@ -15,17 +16,31 @@
         .ui.labeled.icon.button {
             margin-top: 30px !important;
         }
+        .fa-check{
+            border: 7px solid #21BA45;
+            border-radius: 50%;
+            padding: 10px;
+            color:#21BA45;
+        }
+        .success-text{
+            font-size:20px;
+        }
     </style>
 </head>
 <body>
     <div class="ui main text container">
         <div class="ui very padded segment center aligned">
             <div class="alert alert-success">
-    <h1 class="ui header icon"><i class="check circle outline icon green"></i></h1>     
-    <p>E-mail uspjeöno poslan!</p>
+    <h1><i class="fa fa-check"></i></h1>    
+    <p class="success-text">E-mail uspje≈°no poslan!</p>
 </div>            
 <div class="ui section divider"></div>
 </div>
 </div>
 
+<script>
+    window.setTimeout(function(){
+    window.location.href = "https://salondragec.github.io";
+    }, 3000);
+</script>
 </body></html>
