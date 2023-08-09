@@ -1686,5 +1686,18 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 
+
+.objava-zatvoreno{
+	color: #fff;
+	font-size: 3em;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	letter-spacing: 2px;
+	text-align: center;
+	height: 700px;
+}
+.objava-zatvoreno span{
+	line-height: 700px;
+    vertical-align:middle;
+}
 /* -- //Responsive code -- */
 
