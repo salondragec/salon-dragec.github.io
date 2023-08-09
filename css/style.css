@@ -1694,9 +1694,9 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	letter-spacing: 2px;
 	text-align: center;
 	height: 700px;
+	margin-top: 150px;
 }
 .objava-zatvoreno span{
-	line-height: 700px;
     vertical-align:middle;
 }
 /* -- //Responsive code -- */
